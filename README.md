@@ -20,9 +20,20 @@ it, simply add the following line to your Podfile:
 pod 'XyzCustomKeyBoard'
 ```
 
-## Author
+## Usage
+``` ruby
+UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(50, 100, 280, 40)];
+textField.backgroundColor = [UIColor yellowColor];
+[self.view addSubview:textField];
 
-albert_xyz@163.com, xuyanzhang@lanyife.com
+CustomKeyBoard *customKeyBoard = [[CustomKeyBoard alloc] initWithFrame:CGRectZero textField:textField];
+textField.inputView = customKeyBoard;
+```
+## Result
+![](https://github.com/AlbertXYZ/CustomKeyBoard/raw/master/gif008.gif)
+
+## Author
+albert_xyz@163.com, 小徐
 
 ## License
 
