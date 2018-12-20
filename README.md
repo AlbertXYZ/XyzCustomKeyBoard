@@ -30,7 +30,7 @@ CustomKeyBoard *customKeyBoard = [[CustomKeyBoard alloc] initWithFrame:CGRectZer
 textField.inputView = customKeyBoard;
 ```
 ## Result
-![](https://github.com/AlbertXYZ/CustomKeyBoard/raw/master/gif008.gif)
+![](https://github.com/AlbertXYZ/XyzCustomKeyBoard/raw/master/gif008.gif)
 
 ## Author
 albert_xyz@163.com, 小徐
