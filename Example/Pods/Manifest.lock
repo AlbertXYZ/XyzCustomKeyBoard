@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XyzCustomKeyBoard (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XyzCustomKeyBoard (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  XyzCustomKeyBoard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XyzCustomKeyBoard: 344183debd8101eae5efb324cbc2bd930e935ce3
+
+PODFILE CHECKSUM: 0bce0ec82d8e884ecc45f0869ff5128d4a84ad78
+
+COCOAPODS: 1.5.3

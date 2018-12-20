@@ -1,0 +1,6 @@
+framework module XyzCustomKeyBoard {
+  umbrella header "XyzCustomKeyBoard-umbrella.h"
+
+  export *
+  module * { export * }
+}

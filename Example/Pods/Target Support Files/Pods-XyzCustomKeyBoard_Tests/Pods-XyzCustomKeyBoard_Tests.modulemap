@@ -1,0 +1,6 @@
+framework module Pods_XyzCustomKeyBoard_Tests {
+  umbrella header "Pods-XyzCustomKeyBoard_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "XyzCustomKeyBoard",
+  "version": "0.1.0",
+  "summary": "A short description of XyzCustomKeyBoard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/albert_xyz@163.com/XyzCustomKeyBoard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "albert_xyz@163.com": "xuyanzhang@lanyife.com"
+  },
+  "source": {
+    "git": "https://github.com/albert_xyz@163.com/XyzCustomKeyBoard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XyzCustomKeyBoard/Classes/**/*"
+}
